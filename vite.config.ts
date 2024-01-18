@@ -5,6 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   base: "/particle/",
+  publicDir: "/particle/",
   plugins: [react()],
   resolve: {
     alias: {
