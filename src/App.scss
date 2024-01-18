@@ -1,0 +1,14 @@
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #243949 0%, #517fa4 100%);
+}
+.action {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 20px;
+    height: 100%;
+    justify-content: center;
+    gap: 10px;
+}
