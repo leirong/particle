@@ -45,8 +45,8 @@ const createParticle = (element, {
     
     // 创建随机点
     const createPoint = () => {
-        const x = Math.random() * width
-        const y = Math.random() * height
+        const x = Math.random() * (width - (max * 2)) + max
+        const y = Math.random() * (height - (max * 2)) + max
         const r = randomRadius()
         const moveX = speed * (Math.random() * 2 - 1)
         const moveY = speed * (Math.random() * 2 - 1)
